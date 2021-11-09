@@ -1,0 +1,2 @@
+* * * * * root python output.py >/proc/1/fd/1 2>/proc/1/fd/2
+#This is a cron job, changes output to parent process output (cron outputs to a log file)
